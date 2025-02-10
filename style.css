@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    background-color: pink;
+    font-family: Arial, sans-serif;
+    position: relative;
+    overflow: hidden;
+
+    background-image: url("bg.png");
+    background-size: cover; /* Ensures the image covers the entire viewport */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents repeating */
+}
+img {
+    width: 300px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.buttons {
+    display: flex;
+
+}
+button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.yes {
+    background-color: red;
+    color: white;
+}
+.no {
+    background-color: gray;
+    color: white;
+    transition: left 0.2s, top 0.2s;
+}
